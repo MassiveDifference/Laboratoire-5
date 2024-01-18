@@ -1,11 +1,23 @@
 .main{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .jeu{
     display: flex;
+    flex-wrap: wrap;
+    contain: ;
     width: 500px;
     height: 500px;
+    border: 1px solid black;
+}
+
+.carre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
 }
